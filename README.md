@@ -13,7 +13,7 @@ The script performs the following actions:
   - Use the IP address to perform a **Shodan** query to retrieve some host details, without performing 
     an active scan of the host.
 
-  - If the host has port 443 open, connect via HTTPS to retrieve certification information.
+  - If the host has port 443 open, connect via HTTPS to retrieve certificate information.
 
   - Create the `discovered_host` entity and connect the `DomainRecord` entity to it in the JupiterOne
     graph.
