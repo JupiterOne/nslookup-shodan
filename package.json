@@ -1,0 +1,33 @@
+{
+  "name": "nslookup-shodan",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "https://github.com/jupiterone/nslookup-shodan",
+  "author": "JupiterOne",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.1.4",
+    "@types/node": "^13.9.8",
+    "@typescript-eslint/eslint-plugin": "^2.26.0",
+    "@typescript-eslint/parser": "^2.26.0",
+    "dotenv": "^7.0.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-jest": "^23.8.2",
+    "husky": "^2.4.0",
+    "jest": "^25.2.4",
+    "lint-staged": "^8.2.0",
+    "prettier": "^2.0.2",
+    "ts-jest": "^25.3.0",
+    "ts-node": "^9.0.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@jupiterone/jupiterone-client-nodejs": "^0.22.7",
+    "axios": "^0.20.0",
+    "chalk": "^4.1.0",
+    "get-ssl-certificate-next": "^3.0.0"
+  }
+}
