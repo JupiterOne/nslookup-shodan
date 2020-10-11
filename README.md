@@ -36,3 +36,17 @@ Next, run the script:
 ```bash
 yarn && yarn start
 ```
+
+The script uses JupiterOne Bulk Upload / Synchronization API, which completes the update to graph
+asynchronously in the background. It typically takes less than a few minutes to complete after the
+upload.
+
+You can run the following J1QL query to see the graph:
+
+```j1ql
+FIND DomainRecord THAT CONNECTS discovered_host RETURN TREE
+```
+
+Here's an example screenshot:
+
+![graph](graph.png)
