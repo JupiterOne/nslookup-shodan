@@ -1,10 +1,14 @@
 {
   "name": "nslookup-shodan",
   "version": "0.1.0",
-  "main": "index.js",
-  "repository": "https://github.com/jupiterone/nslookup-shodan",
-  "author": "JupiterOne",
+  "description": "Automatically generated package.json, please edit manually",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JupiterOne/nslookup-shodan"
+  },
   "license": "MIT",
+  "main": "index.js",
+  "author": "JupiterOne",
   "scripts": {
     "start": "node ./index.js"
   },
